@@ -56,3 +56,37 @@ if (Idade >= 16) {
 
 console.clear()
 
+// Estrutura condicional com mais de duas opções
+
+/*let pedido = prompt("Boa tarde, qual o seu pedido? escolçha entre as opções: X-Bacon, X-Salada ou X-Burguer")
+
+if (pedido === "X-Bacon") {
+    alert(`Ótima escolha, ${pedido} ficará pronto em 20 minutos`)
+}
+else if (pedido === "X-Salada") {
+    alert(`Ótima escolha, ${pedido} ficará pronto em 15 minutos`)
+}
+else if (pedido === "X-Burguer") {
+    alert(`Ótima escolha, seu ${pedido} ficará pronto em 10 minutos`)
+}
+else {
+    alert(`Opção inválida, aperte F5 e escolha uma opção válida`)
+}
+*/
+
+//Operadores lógicos 
+
+// && = and (e)
+// || = or (ou)
+// ! = not (não)
+
+let clima = prompt("Como está o clima? chuva ou sol")
+let dinheiro = prompt("Você tem dinheiro? sim ou não")
+
+if (clima === "sol" && dinheiro === "sim") {
+    alert(`Partiu rolê`)
+}
+else {
+    alert(`Nem tava com vontade de sair mesmo`)
+}
+
